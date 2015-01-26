@@ -1,0 +1,124 @@
+body {
+  font-family: arial;
+}
+
+header {
+  background-color: #2e4762;
+}
+
+#top {
+  margin-bottom: 0;
+}
+.navbar-brand {
+  color: #fff;
+  opacity: .8;
+
+}
+
+.navbar-brand:hover {
+  opacity: 1;
+  color: #fff;
+}
+
+.navbar-nav a {
+  color: #fff;
+}
+
+.navbar-nav a:hover {
+  color: #2E4762;
+}
+
+.jumbotron {
+  margin-bottom: 0;
+}
+
+.subHeader {
+  background: #286090;
+  color: #fff;
+  padding: 1em;
+}
+
+.heroBanner {
+  background: url("../images/hero.jpg") no-repeat center center fixed;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+}
+
+.heroMessage {
+  background: url("../images/white-opac-5.png") repeat;
+  padding-bottom: 5%;
+
+}
+
+.heroMessage h3 {
+  margin-top: 4em;
+}
+
+.gallery-area {
+  margin-top: 3em;
+}
+
+.propertyTitle {
+  font-weight: bold;
+  text-align:center;
+}
+
+.price {
+  position: absolute;
+  top: 1.5em;
+  background: url("../images/white-opac-5.png") repeat;
+  font-weight: bold;
+  font-size: 150%;
+}
+
+.row.viewMoreListing {
+  text-align: center;
+}
+
+.row.viewMoreListing a {
+  padding: 2em 6em 2em 6em;
+  background: #286090;
+  color: #fff;
+  margin:8em 0 10em 0;
+}
+
+.viewMoreListing .btn {
+  border-radius: 3em;
+  border-color: #2e4762;
+}
+
+.row.viewMoreListing a:hover {
+  background: #bfd9f2;
+  transition: .4s;
+  color: #000;
+}
+
+footer {
+  background-color: #2e4762;
+  color: #fff;
+  padding-bottom: .5em;
+}
+
+footer ol li {
+  list-style: none;
+}
+
+footer ol li a {
+  color: #fff;
+}
+
+footer ol li a:hover {
+  opacity: 1;
+  text-decoration: none;
+  background: #EEEEEE;
+
+}
+
+footer .container .row {
+  padding-top: 4em;
+}
+
+footer .caption {
+  text-align: center;
+}
